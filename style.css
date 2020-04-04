@@ -1,0 +1,35 @@
+body{
+  background-color: #101010;
+  padding: 20px;
+}
+.images{
+  position: relative;
+  width: 20%;
+  height: auto;
+  margin: 0 auto;
+  transition: all 0.2s ease 0s;
+}
+.shadow{
+  position: absolute;
+  border-radius: 8px;
+  transition: all 0.3s ease 0s;
+}
+.shadow2{
+   position: absolute;
+  border-radius: 8px;
+  transition: all 0.3s ease 0s;
+  overflow: hidden;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.images:hover .shadow{
+  transform: translate(-10.9859px, 35.1336px);
+  filter: blur(30px) brightness(80%) saturate(200%);
+  transition: all 0.3s ease 0s;
+}
+.images:hover .shadow2{
+   transition: all 0.3s ease 0s;
+   transform: scale(1.02);
+}
